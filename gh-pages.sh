@@ -13,6 +13,7 @@ done
 
 # copy the textures
 cp -R texture ../gh-pages
+cp -R screenshots ../gh-pages
 
 # init branch and commit
 cd ../gh-pages
