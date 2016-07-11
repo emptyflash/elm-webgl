@@ -265,7 +265,7 @@ var _elm_community$elm_webgl$Native_WebGL = function () {
 
     gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT | gl.STENCIL_BUFFER_BIT);
-    LOG("Drawing");
+    LOG('Drawing');
 
     function drawEntity(render) {
       if (_elm_lang$core$List$length(render.buffer._0) === 0) {
