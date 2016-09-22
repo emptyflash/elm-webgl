@@ -548,6 +548,7 @@ var _elm_community$elm_webgl$Native_WebGL = function () {
   function renderCanvas(model) {
 
     LOG('Render canvas');
+    var canvas = document.createElement('canvas');
     var attributes = {stencil: true}
     var gl = canvas.getContext('webgl', attributes) || canvas.getContext('experimental-webgl', attributes);
 
